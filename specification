@@ -1,0 +1,137 @@
+# WJEC GCE AS/A Level Mathematics Specification Cheat Sheet
+
+## AS UNIT 1: PURE MATHEMATICS A
+
+### 2.1.1 Proof
+- **Methods of Proof:** Proof by deduction (including laws of logarithms), exhaustion, and disproof by counter example.
+
+### 2.1.2 Algebra and Functions
+- **Indices & Surds:** Laws of indices for rational exponents; manipulate surds (including rationalising denominators like $\frac{2+3\sqrt{5}}{3-\sqrt{5}}$).
+- **Quadratics:** Quadratic functions and graphs; discriminant (real/repeated roots); nature of roots; completing the square (finding min/max); solving quadratic equations.
+- **Simultaneous Equations:** Solve in two variables by elimination/substitution (one linear, one quadratic); points of intersection.
+- **Inequalities:** Solve linear and quadratic inequalities (e.g., $x^2 - 6x + 8 \ge 0$); interpret graphically; express using 'and'/'or' or set notation.
+- **Polynomials:** Expand brackets, collect like terms, factorisation, simple algebraic division; Factor Theorem (restricted to cubic polynomials/equations).
+- **Graphs:** Sketch $y = f(x)$ including polynomials, $y = \frac{a}{x}$, and $y = \frac{a}{x^2}$ with asymptotes; interpret algebraic solutions graphically; proportional relationships.
+- **Transformations:** $y = af(x)$, $y = f(x) + a$, $y = f(x + a)$, $y = f(ax)$.
+
+### 2.1.3 Coordinate Geometry in the (x, y) Plane
+- **Straight Lines:** Forms $y = mx + c$, $y - y_1 = m(x - x_1)$, and $ax + by + c = 0$; parallel/perpendicular gradients; length and midpoint; use straight line models.
+- **Circles:** Equation forms $(x - a)^2 + (y - b)^2 = r^2$ and $x^2 + y^2 + 2gx + 2fy + c = 0$; completing the square for centre/radius; find equations of tangents; points of intersection with a line; condition for two circles to touch.
+- **Circle Properties:** Angle in a semicircle is a right angle; perpendicular from centre bisects chord; radius is perpendicular to tangent at point.
+
+### 2.1.4 Sequences and Series
+- **Binomial Theorem:** Expansion of $(a + bx)^n$ for positive integer $n$; notations $n!$, $\binom{n}{r}$, $^nC_r$; use of Pascal's triangle; link to binomial probabilities.
+
+### 2.1.5 Trigonometry
+- **Definitions:** sine, cosine, tangent for all arguments; exact values for $30^\circ$, $45^\circ$, $60^\circ$.
+- **Rules:** Sine and cosine rules; area of triangle ($\frac{1}{2}ab\sin C$); ambiguous case for sine rule.
+- **Graphs:** sine, cosine, tangent graphs, symmetries, periodicity.
+- **Identities:** $\tan\theta \equiv \frac{\sin\theta}{\cos\theta}$; $\cos^2\theta + \sin^2\theta \equiv 1$.
+- **Equations:** Solve simple trigonometric equations in a given interval (including quadratics in $\sin, \cos, \tan$, and multiples of the unknown angle).
+
+### 2.1.6 Exponentials and Logarithms
+- **Functions:** $a^x$ ($a > 0$) and $e^x$ and their graphs. Gradient of $e^{kx}$ is $ke^{kx}$ (proportional rate of change).
+- **Logarithms:** $\log_a x$ as inverse of $a^x$; $\ln x$ as inverse of $e^x$; graphs.
+- **Laws of Logarithms:** $\log_a x + \log_a y = \log_a(xy)$, $\log_a x - \log_a y = \log_a(x/y)$, $k\log_a x = \log_a(x^k)$ (proofs required).
+- **Equations:** Solve $a^x = b$ using calculators (e.g., $3^x = 2$, $2^{5x-4} \times 5^{x+3} = 0$).
+- **Modelling:** Exponential growth and decay (compound interest, radioactive decay, population growth); limitations/refinements.
+- **Logarithmic Graphs:** Estimate parameters for $y = ax^n$ (plot $\log y$ vs $\log x$) and $y = kb^x$ (plot $\log y$ vs $x$).
+
+### 2.1.7 Differentiation
+- **Concepts:** Derivative as gradient of tangent; gradient as a limit; rate of change; sketching gradient function; second order derivatives (rate of change of gradient).
+- **First Principles:** Differentiate $x^n$ (small positive integer powers up to 3).
+- **Differentiation:** $x^n$ for rational $n$, constants, sums, differences.
+- **Applications:** Find gradients, equations of tangents/normals, maxima/minima (simple optimisation), stationary points; identify increasing/decreasing functions; curve sketching.
+
+### 2.1.8 Integration
+- **Concepts:** Fundamental Theorem of Calculus; integration as reverse of differentiation.
+- **Integration:** Integrate $x^n$ (excluding $n = -1$) and related sums/differences.
+- **Applications:** Evaluate definite integrals; find area under a curve and area between a line and curve.
+
+### 2.1.9 Vectors
+- **2D Vectors:** Unit vectors $\mathbf{i}, \mathbf{j}$; diagrammatic addition; algebraic addition/scalar multiplication; geometrical interpretation; parallel conditions.
+- **Position Vectors:** $\overrightarrow{AB} = \mathbf{b} - \mathbf{a}$; distance between points; points dividing a line in a given ratio.
+- **Applications:** Solve problems in pure mathematics.
+
+## AS UNIT 2: APPLIED MATHEMATICS A
+
+### Section A: Statistics
+- **2.2.1 Statistical Sampling:** Population vs sample; informal inferences; techniques (simple random, systematic, opportunity); critique techniques.
+- **2.2.2 Data Presentation & Interpretation:** Histograms (area represents frequency), box and whisker diagrams, cumulative frequency diagrams; assess skewness (symmetric, positive/negative skew); scatter diagrams, regression lines (make predictions from given equations); informal correlation (positive/negative, strong/weak); correlation $\neq$ causation. Calculate mean, median, mode, variance, standard deviation, range, interquartile range (IQR). Identify outliers ($Q1 - 1.5 \times IQR$ and $Q3 + 1.5 \times IQR$); clean data.
+- **2.2.3 Probability:** Mutually exclusive and independent events; $P(A \cap B) = P(A)P(B)$; $P(A \cup B) = P(A) + P(B) - P(A \cap B)$; Venn diagrams and set notation.
+- **2.2.4 Statistical Distributions:** Discrete distributions (binomial, Poisson, discrete uniform) as models. Use formulae/tables/calculators to calculate probabilities; select appropriate models.
+- **2.2.5 Statistical Hypothesis Testing:** Language (null/alternative hypothesis, significance level, test statistic, 1-tail/2-tail, critical value/region, p-value). Test proportion in binomial distribution. Understand sample inference; Type I and Type II errors. Interpret p-values (< 0.01 very strong, < 0.05 strong, > 0.05 insufficient evidence).
+
+### Section B: Mechanics
+- **2.2.6 Quantities & Units:** Fundamental (length, time, mass) and derived (velocity, acceleration, force, weight).
+- **2.2.7 Kinematics:** Language (position, displacement, distance, velocity, speed, acceleration). Straight-line graphs (gradient/area of displacement-time and velocity-time graphs). Constant acceleration formulae (including vertical motion under gravity $g = 9.8 \text{ ms}^{-2}$). Calculus in kinematics ($v = \frac{dr}{dt}, a = \frac{dv}{dt}, r = \int v dt, v = \int a dt$).
+- **2.2.8 Forces & Newton's Laws:** Force concept; Newton's First, Second ($F = ma$), and Third laws (motion in straight line, 2D vectors/perpendicular forces); weight and gravity. Equilibrium of forces. Applications with smooth pulleys/pegs and connected particles.
+- **2.2.9 Vectors:** Magnitude and direction; component form vs magnitude/direction form; solve force problems in context.
+
+## A2 UNIT 3: PURE MATHEMATICS B
+
+### 2.3.1 Proof
+- **Proof by Contradiction:** Including irrationality of $\sqrt{2}$ and infinity of primes.
+
+### 2.3.2 Algebra and Functions
+- **Rational Expressions:** Simplify by factorising, cancelling, algebraic division (linear expressions only).
+- **Modulus Function:** Sketch graphs (e.g., $y = |ax + b|$); solve equations/inequalities involving modulus.
+- **Functions:** Composite functions ($fg(x)$); inverse functions and graphs; domain and range.
+- **Transformations:** Combinations of transformations ($y = af(x)$, $y = f(x) + a$, $y = f(x+a)$, $y = f(ax)$).
+- **Partial Fractions:** Decompose rational functions (denominators up to squared linear terms, max 3 terms; numerators constant or linear).
+- **Modelling:** Use functions in modelling; limitations and refinements.
+
+### 2.3.3 Coordinate Geometry in the (x, y) Plane
+- **Parametric Equations:** Understand/use parametric equations; convert to/from Cartesian; find tangents/normals; use in modelling.
+
+### 2.3.4 Sequences and Series
+- **Binomial Expansion:** $(a + bx)^n$ for rational $n$; valid for $|bx/a| < 1$; approximation.
+- **Sequences:** Formula for $n$-th term; recurrence relations $x_{n+1} = f(x_n)$; increasing, decreasing, periodic sequences; sigma notation.
+- **Arithmetic Series:** $u_n = a + (n-1)d$; $S_n = \frac{n}{2}[2a + (n-1)d]$ or $\frac{n}{2}[a + l]$ (use and proof).
+- **Geometric Series:** $u_n = ar^{n-1}$; $S_n = \frac{a(1-r^n)}{1-r}$ (use and proof); sum to infinity $S_\infty = \frac{a}{1-r}$ for $|r| < 1$.
+- **Modelling:** Use sequences and series in modelling.
+
+### 2.3.5 Trigonometry
+- **Radian Measure:** Arc length $s = r\theta$, area of sector $A = \frac{1}{2}r^2\theta$, segment area.
+- **Small Angle Approximations:** $\sin\theta \approx \theta$, $\cos\theta \approx 1 - \frac{\theta^2}{2}$, $\tan\theta \approx \theta$ (in radians).
+- **Exact Values:** $\sin, \cos, \tan$ for $0, \pi/6, \pi/4, \pi/3, \pi/2$, etc.
+- **Reciprocal/Inverse Functions:** $\sec, \csc, \cot, \arcsin, \arccos, \arctan$; graphs, domains, ranges.
+- **Identities:** $\sec^2\theta \equiv 1 + \tan^2\theta$; $\csc^2\theta \equiv 1 + \cot^2\theta$; geometric proofs and solutions.
+- **Double/Compound Angles:** $\sin(A\pm B), \cos(A\pm B), \tan(A\pm B)$ and double angle formulae; geometric proofs; solving equations/integrals.
+- **Harmonic Form:** Express $a\cos\theta + b\sin\theta$ as $r\cos(\theta \pm \alpha)$ or $r\sin(\theta \pm \alpha)$; solve equations; find greatest/least values.
+
+### 2.3.6 Differentiation
+- **First Principles:** For $\sin x$ and $\cos x$.
+- **Second Derivative:** Rate of change of gradient; convex/concave curves, points of inflection (stationary and non-stationary).
+- **Standard Functions:** Differentiate $e^{kx}, a^{kx}, \sin kx, \cos kx, \tan kx$, $\ln x$, and linear combinations.
+- **Rules:** Product, quotient, and chain rules; connected rates of change; inverse functions ($\frac{dy}{dx} = 1/\frac{dx}{dy}$).
+- **Implicit & Parametric:** First derivatives of functions defined implicitly or parametrically.
+- **Differential Equations:** Construct simple DEs in pure mathematics.
+
+### 2.3.7 Integration
+- **Standard Functions:** Integrate $e^{kx}, 1/x, \sin kx, \cos kx$. Use results $\int f(ax+b) dx = \frac{1}{a}F(ax+b)+c$ and $\int f(g(x))g'(x) dx = \int f(u) du$.
+- **Techniques:** Definite integral for area between two curves; integration as limit of a sum; integration by substitution (simple cases); integration by parts; partial fractions (linear denominators).
+- **Differential Equations:** Analytical solution of simple first-order DEs with separable variables; particular solutions.
+
+### 2.3.8 Numerical Methods
+- **Locating Roots:** Change of sign in an interval; understand when it fails.
+- **Iteration:** $x_{n+1} = g(x_n)$; draw cobweb/staircase diagrams; Newton-Raphson method; understand when methods fail.
+- **Numerical Integration:** Trapezium rule; estimating area; determining over/underestimates.
+- **Context:** Use numerical methods to solve problems leading to analytically unsolvable equations.
+
+## A2 UNIT 4: APPLIED MATHEMATICS B
+
+### Section A: Statistics
+- **2.4.1 Probability:** Conditional probability; tree diagrams, Venn diagrams, two-way tables; $P(A \cap B) = P(A)P(B|A) = P(B)P(A|B)$; probability modelling and assumptions.
+- **2.4.2 Statistical Distributions:** Continuous uniform and Normal distributions as models. Calculate Normal probabilities (calculator/tables).
+- **2.4.3 Statistical Hypothesis Testing:** Test correlation coefficients $\rho$ using p-value/critical value. Test mean of a Normal distribution (known/given variance); use result $\bar{X} \sim N(\mu, \sigma^2/n)$.
+
+### Section B: Differential Equations and Mechanics
+- **2.4.4 Trigonometry:** Use in context (e.g., resolving vectors/forces/kinematics, wave motion).
+- **2.4.5 Differentiation:** Construct simple DEs in context (kinematics, population growth, price/demand, exponential growth/decay).
+- **2.4.6 Integration:** Evaluate analytical solutions for simple first-order separable DEs; interpret context/limitations; link to kinematics.
+- **2.4.7 Quantities & Units:** Derived quantities/units for moments.
+- **2.4.8 Kinematics:** 2D constant acceleration formulae (vectors); 2D calculus in kinematics. Projectiles (motion under gravity in vertical plane, derive formulae for range, time of flight, greatest height, path equation).
+- **2.4.9 Forces & Newton's Laws:** Resolve forces in 2D; equilibrium of coplanar forces; resultant forces; dynamics in a plane. Friction model $F \le \mu R$; limiting friction; motion on rough inclined planes; connected particles (freely hanging/inclined plane).
+- **2.4.10 Moments:** Simple static contexts (parallel forces only).
+- **2.4.11 Vectors:** 3D vectors ($\mathbf{i}, \mathbf{j}, \mathbf{k}$ unit vectors); solve problems in forces and kinematics (excluding scalar product).
