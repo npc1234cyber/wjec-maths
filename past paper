@@ -1,0 +1,307 @@
+# WJEC A Level Mathematics - S24 Q&A
+## PURE MATHEMATICS B (1300U30-1)
+
+### Question 1
+**Question:**
+The function $f$ is given by $f(x) = \frac{25x + 32}{(2x - 5)(x + 1)(x + 2)}$.
+(a) Express $f(x)$ in terms of partial fractions. [4]
+(b) Show that $\int_{1}^{2} f(x) \, dx = -\ln P$, where $P$ is an integer whose value is to be found. [5]
+(c) Show that the sign of $f(x)$ changes in the interval $x = 2$ to $x = 3$. Explain why the change of sign method fails to locate a root of the equation $f(x) = 0$ in this case. [2]
+
+**Answer:**
+(a) $f(x) = \frac{6}{2x-5} - \frac{1}{x+1} - \frac{2}{x+2}$
+(b) Integrating yields $[3\ln|2x-5| - \ln|x+1| - 2\ln|x+2|]_1^2 = -2\ln 3 - 3\ln 2 = -\ln 72$. So $P = 72$.
+(c) $f(2) = -12 < 0$, and $f(3) = \frac{107}{20} > 0$. The method fails because the denominator is zero at $x = 2.5$, meaning there is a vertical asymptote and the function is discontinuous, not crossing the x-axis.
+
+### Question 2
+**Question:**
+(a) Find all values of $\theta$ in the range $0^\circ \le \theta \le 360^\circ$ satisfying $3\cot\theta + 4\csc^2\theta = 5$. [5]
+(b) By writing $24\cos x - 7\sin x$ in the form $R\cos(x + \alpha)$, where $R$ and $\alpha$ are constants with $R > 0$ and $0^\circ \le \alpha \le 90^\circ$, solve the equation $24\cos x - 7\sin x = 16$ for values of $x$ between $0^\circ$ and $360^\circ$. [6]
+
+**Answer:**
+(a) Using $\csc^2\theta = 1 + \cot^2\theta$ gives $4\cot^2\theta + 3\cot\theta - 1 = 0 \implies (4\cot\theta - 1)(\cot\theta + 1) = 0$.
+$\tan\theta = -1 \implies \theta = 135^\circ, 315^\circ$.
+$\tan\theta = 4 \implies \theta = 75.96^\circ, 255.96^\circ$.
+(b) $R = \sqrt{24^2 + (-7)^2} = 25$, $\alpha = \tan^{-1}(7/24) = 16.26^\circ$.
+$25\cos(x + 16.26^\circ) = 16 \implies \cos(x + 16.26^\circ) = 0.64$.
+$x + 16.26^\circ = 50.21^\circ, 309.79^\circ \implies x = 33.95^\circ, 293.53^\circ$.
+
+### Question 3
+**Question:**
+The diagram shows a badge ODC. The shape OAB is a sector of a circle centre O and radius $r$ cm. The shape ODC is a sector of a circle with the same centre O. The length AD is 5 cm and angle AOB is $\frac{\pi}{5}$ radians. The area of the shaded region, ABCD, is $\frac{13\pi}{2}$ cm$^2$.
+(a) Determine the value of $r$. [4]
+(b) Calculate the perimeter of the shaded region. [3]
+
+**Answer:**
+(a) Area $= \frac{1}{2}(r+5)^2(\frac{\pi}{5}) - \frac{1}{2}r^2(\frac{\pi}{5}) = \frac{13\pi}{2} \implies 10r + 25 = 65 \implies r = 4$ cm.
+(b) Length CD $= \frac{9\pi}{5}$, length AB $= \frac{4\pi}{5}$. Perimeter $= 5 + 5 + \frac{9\pi}{5} + \frac{4\pi}{5} = 10 + \frac{13\pi}{5}$ cm.
+
+### Question 4
+**Question:**
+A function $f$ is given by $f(x) = -|3x| + 4$.
+(a) Sketch the graph of $y = f(x)$. Clearly label the coordinates of the point A, where the graph meets the negative x-axis, and the coordinates of the point B, where the graph cuts the y-axis. [3]
+(b) On a separate set of axes, sketch the graph of $y = \frac{1}{2}f(x) - 6$, where the points A and B are transformed to the points A' and B'. Clearly label the coordinates of the points A' and B'. [3]
+
+**Answer:**
+(a) Inverted V shape. Vertex at $B(0, 4)$. $y=0 \implies |3x|=4 \implies x = \pm 4/3$. Thus $A(-4/3, 0)$.
+(b) Moved downwards and compressed vertically. $A'(-4/3, -6)$ and $B'(0, -4)$.
+
+### Question 5
+**Question:**
+Prove by contradiction the following proposition:
+When $x$ is real and positive, $x + \frac{81}{x} \ge 18$. [4]
+
+**Answer:**
+Assume there exists a real and positive $x$ such that $x + \frac{81}{x} < 18$.
+Multiplying by $x$ (which is positive) gives $x^2 + 81 < 18x \implies x^2 - 18x + 81 < 0 \implies (x - 9)^2 < 0$.
+Since the square of any real number must be $\ge 0$, this is a contradiction. Therefore, $x + \frac{81}{x} \ge 18$.
+
+### Question 6
+**Question:**
+(a) Differentiate $\cos x$ from first principles. [5]
+(b) Differentiate $e^{3x}\sin 4x$ with respect to $x$. [3]
+(c) Find $\int x^2 \sin 2x \, dx$. [5]
+
+**Answer:**
+(a) $\frac{dy}{dx} = \lim_{h \to 0} \frac{\cos(x+h) - \cos x}{h} = \lim_{h \to 0} \frac{\cos x \cos h - \sin x \sin h - \cos x}{h}$
+$= \lim_{h \to 0} \left[ \cos x \left(\frac{\cos h - 1}{h}\right) - \sin x \left(\frac{\sin h}{h}\right) \right]$.
+Since $\frac{\cos h - 1}{h} \to 0$ and $\frac{\sin h}{h} \to 1$, the limit is $-\sin x$.
+(b) Using the product rule: $\frac{dy}{dx} = 4e^{3x}\cos 4x + 3e^{3x}\sin 4x$.
+(c) Using integration by parts: $\int x^2 \sin 2x \, dx = -\frac{1}{2}x^2\cos 2x - \int x(-\cos 2x) \, dx = -\frac{1}{2}x^2\cos 2x + \frac{1}{2}x\sin 2x + \frac{1}{4}\cos 2x + C$.
+
+### Question 7
+**Question:**
+Showing all your working, evaluate:
+(a) $\sum_{r=3}^{50} (4r + 5)$ [4]
+(b) $\sum_{r=2}^{\infty} 540 \times \left(\frac{1}{3}\right)^r$ [3]
+
+**Answer:**
+(a) This is an arithmetic series with $a = 17$, $d = 4$, and $n = 48$. Sum = $\frac{48}{2}(2(17) + 47(4)) = 5328$.
+(b) This is a geometric series with first term $a = 540 \times (1/9) = 60$ and common ratio $r = 1/3$. Sum to infinity = $\frac{60}{1 - 1/3} = 90$.
+
+### Question 8
+**Question:**
+The function $f$ is defined by $f(x) = x^3 + 4x^2 - 3x - 1$.
+(a) Show that the equation $f(x) = 0$ has a root in the interval $[0, 1]$. [1]
+(b) Using the Newton-Raphson method with $x_0 = 0.8$,
+(i) write down in full the decimal value of $x_1$ as given in your calculator, [4]
+(ii) determine the value of this root correct to six decimal places.
+(c) Explain why the Newton-Raphson method does not work if $x_0 = 1/3$. [2]
+
+**Answer:**
+(a) $f(0) = -1 < 0$ and $f(1) = 1 > 0$. The change of sign indicates a root in the interval.
+(b) (i) $x_{n+1} = x_n - \frac{x_n^3 + 4x_n^2 - 3x_n - 1}{3x_n^2 + 8x_n - 3}$. For $x_0 = 0.8$, $x_1 = 0.8616541353...$
+(ii) Continuing gives $x_2 = 0.857641...$, $x_3 = 0.857623...$. Root correct to 6 decimal places is $0.857624$.
+(c) $f'(1/3) = 3(1/9) + 8(1/3) - 3 = 0$. The method fails because it requires dividing by zero (the tangent is horizontal and does not intersect the x-axis).
+
+### Question 9
+**Question:**
+The curve $C_1$ has equation $y = -x^2 + \pi x + 1$ and $C_2$ has equation $y = \cos 2x$. The curves intersect at the points where $x = 0$ and $x = \pi$. Calculate the exact area of the shaded region enclosed by $C_1$, $C_2$ and the x-axis. Give your answer in terms of $\pi$. [9]
+
+**Answer:**
+Area below $C_1$ between $0$ and $\pi$: $\int_0^\pi (-x^2 + \pi x + 1) \, dx = \left[-\frac{x^3}{3} + \frac{\pi x^2}{2} + x\right]_0^\pi = \frac{\pi^3}{6} + \pi$.
+Area bounded by $C_2$ above x-axis between $0$ and $\pi$: $\int_0^{\pi/4} \cos 2x \, dx + \int_{3\pi/4}^\pi \cos 2x \, dx = \frac{1}{2} + \frac{1}{2} = 1$.
+Required area = Area under $C_1$ - Area under $C_2$ = $\frac{\pi^3}{6} + \pi - 1$.
+
+### Question 10
+**Question:**
+The function $f$ has domain $[4, \infty)$ and is defined by $f(x) = \frac{x^2 - 2x - 3}{x^2 + 2x - 3} + \frac{2(3x + 1)}{x^3 + 2x^2 - 3x}$.
+(a) Show that $f(x) = \frac{x + 2}{x - 3}$. [4]
+(b) Determine the range of $f(x)$. [2]
+(c) Find an expression for $f^{-1}(x)$ and write down the domain and range of $f^{-1}$. [4]
+(d) Find the value of $x$ when $f(x) = f^{-1}(x)$. [4]
+
+**Answer:**
+(a) Simplifies to $\frac{x+2}{x-3}$.
+(b) $f(x) = \frac{x-3+5}{x-3} = 1 + \frac{5}{x-3}$. The range is $(1, 6]$.
+(c) Let $y = \frac{x+2}{x-3} \implies yx - 3y = x + 2 \implies x(y-1) = 3y+2 \implies x = \frac{3y+2}{y-1}$. So $f^{-1}(x) = \frac{3x+2}{x-1}$. Domain is $(1, 6]$, range is $[4, \infty)$.
+(d) $f(x) = f^{-1}(x) \implies x = f(x) \implies x = \frac{x+2}{x-3} \implies x^2 - 4x - 2 = 0$. Using the quadratic formula, $x = 2 \pm \sqrt{6}$. Since $x \ge 4$, $x = 2 + \sqrt{6}$.
+
+### Question 11
+**Question:**
+A curve is defined parametrically by $x = 2\theta + \sin 2\theta$, $y = 1 - \cos 2\theta$.
+(a) Show that the gradient of the curve at the point with parameter $\theta$ is $\tan\theta$. [6]
+(b) Find the equation of the tangent to the curve at the point where $\theta = \frac{\pi}{4}$. [4]
+
+**Answer:**
+(a) $\frac{dx}{d\theta} = 2 + 2\cos 2\theta$, $\frac{dy}{d\theta} = 2\sin 2\theta$. $\frac{dy}{dx} = \frac{2\sin 2\theta}{2 + 2\cos 2\theta} = \frac{4\sin\theta\cos\theta}{2 + 2(2\cos^2\theta - 1)} = \frac{\sin\theta}{\cos\theta} = \tan\theta$.
+(b) At $\theta = \pi/4$, $x = \pi/2 + 1$, $y = 1$. Gradient $m = \tan(\pi/4) = 1$. Equation: $y - 1 = 1(x - (\pi/2 + 1)) \implies y = x - \pi/2$.
+
+### Question 12
+**Question:**
+(a) Given that $\theta$ is small, show that $2\cos\theta + \sin\theta - 1 \approx 1 + \theta - \theta^2$. [2]
+(b) Hence, when $\theta$ is small, show that $\frac{1}{2\cos\theta + \sin\theta - 1} \approx 1 + a\theta + b\theta^2$, where $a, b$ are constants to be found. [4]
+
+**Answer:**
+(a) $\cos\theta \approx 1 - \frac{\theta^2}{2}$ and $\sin\theta \approx \theta$. Thus $2(1 - \frac{\theta^2}{2}) + \theta - 1 = 2 - \theta^2 + \theta - 1 = 1 + \theta - \theta^2$.
+(b) $(1 + (\theta - \theta^2))^{-1} \approx 1 - (\theta - \theta^2) + \frac{(-1)(-2)}{2}(\theta - \theta^2)^2 \approx 1 - \theta + \theta^2 + \theta^2 = 1 - \theta + 2\theta^2$. $a = -1, b = 2$.
+
+### Question 13
+**Question:**
+The diagram shows a sketch of the graph of $y = f'(x)$ for the interval $[x_1, x_5]$.
+(a) Find the interval on which $f(x)$ is both decreasing and convex. Give reasons for your answer. [2]
+(b) Write down the x-coordinate of a point of inflection of the graph of $y = f(x)$. [1]
+
+**Answer:**
+(a) $f(x)$ is decreasing when $f'(x) < 0$. $f(x)$ is convex when $f''(x) > 0$ (meaning $f'(x)$ is increasing). The interval where the graph of $f'(x)$ is negative and increasing is $(x_3, 0)$.
+(b) Points of inflection occur where $f''(x)$ changes sign, which corresponds to the turning points of $f'(x)$. The x-coordinates are $x_3$ or $x_4$.
+
+### Question 14
+**Question:**
+(a) Given that $y = \frac{1 + \ln x}{x}$, show that $\frac{dy}{dx} = -\frac{\ln x}{x^2}$. [2]
+(b) Hence, solve the differential equation $\frac{dx}{dt} = \frac{x^2 t}{\ln x}$, given that $t = 3$ when $x = 1$. Give your answer in the form $t^2 = g(x)$, where $g$ is a function of $x$. [5]
+
+**Answer:**
+(a) Using quotient rule: $\frac{dy}{dx} = \frac{x(\frac{1}{x}) - (1+\ln x)(1)}{x^2} = \frac{1 - 1 - \ln x}{x^2} = -\frac{\ln x}{x^2}$.
+(b) Separating variables gives $\int t \, dt = \int \frac{\ln x}{x^2} \, dx$. From part (a), $\frac{t^2}{2} = -\frac{1+\ln x}{x} + C$. Using $x=1, t=3$, $4.5 = -1 + C \implies C = 5.5$. Thus, $t^2 = 11 - \frac{2(1+\ln x)}{x}$.
+
+### Question 15
+**Question:**
+Robert wants to deposit £$P$ into a savings account. He has a choice of two accounts.
+- Account A offers an annual compound interest rate of 1%.
+- Account B offers an interest rate of 5% for the first year and an annual compound interest rate of 0.6% for each subsequent year.
+After $n$ years, account A is more profitable than account B. Find the smallest value of $n$. [5]
+
+**Answer:**
+Return for A: $S_A = P(1.01)^n$.
+Return for B: $S_B = P(1.05)(1.006)^{n-1}$.
+We require $1.01^n > 1.05 \times 1.006^{n-1} \implies \left(\frac{1.01}{1.006}\right)^n > \frac{1.05}{1.006}$.
+Taking logarithms: $n \ln\left(\frac{1.01}{1.006}\right) > \ln\left(\frac{1.05}{1.006}\right) \implies n > 10.78$. The smallest value is $n = 11$.
+
+---
+
+## APPLIED MATHEMATICS B (1300U40-1)
+
+### Question 1
+**Question:**
+The table below shows the destination from school of 180 year 11 pupils. Most pupils either continued education, in school or college, or went into some form of employment.
+| | School | College | Employment | Other | Total |
+|---|---|---|---|---|---|
+| Boys | 33 | 49 | 8 | 2 | 92 |
+| Girls | 40 | 40 | 7 | 1 | 88 |
+| Total | 73 | 89 | 15 | 3 | 180 |
+A reporter selects two pupils at random to interview. Given that the first pupil is in school or college, find the probability that both pupils are girls. [3]
+
+**Answer:**
+$P(\text{Both girls} \mid \text{1st in school or college}) = \frac{\frac{80}{180} \times \frac{87}{179}}{\frac{162}{180}} = \frac{1160}{4833} \approx 0.240$.
+
+### Question 2
+**Question:**
+The smallest angle $\theta$, in degrees, of a right-angled triangle with hypotenuse 8 cm, is uniformly distributed across all possible values.
+(a) Find the mean and standard deviation of $\theta$. [3]
+(b) The shortest side of the triangle is of length $X$ cm. Find the probability that $X$ is greater than 5. [5]
+
+**Answer:**
+(a) $\theta \sim U[0, 45]$. Mean $= \frac{0 + 45}{2} = 22.5^\circ$. Standard deviation $= \frac{45 - 0}{\sqrt{12}} = \frac{15\sqrt{3}}{2} \approx 12.99^\circ$.
+(b) $X = 8\sin\theta$. $P(X > 5) = P(8\sin\theta > 5) = P(\sin\theta > 5/8) = P(\theta > 38.68^\circ) = \frac{45 - 38.68}{45} \approx 0.1404$.
+
+### Question 3
+**Question:**
+Awena has a large data set of body measurements, and she wants to investigate relationships between body dimensions. In this particular investigation, she is testing for a correlation between forearm girth and bicep girth.
+(a) Why is it appropriate for Awena to use a one-tailed test? [1]
+Awena takes a random sample of size 11 from her data set and plots the scatter diagram. $R^2 = 0.9412$.
+(b) Using the computer output above, carry out a one-tailed significance test on the sample product moment correlation coefficient at the 0.5% level. [5]
+(c) Blodwen also has access to the same large data set. She decides to do the same test using all of the 507 available data points.
+(i) State the problem Blodwen will encounter when attempting to use statistical tables for her test. [1]
+(ii) How should Blodwen deal with this problem? [1]
+
+**Answer:**
+(a) It is obvious that, in the general population, people with bigger biceps would have bigger forearms. She is specifically testing for a positive correlation.
+(b) $H_0: \rho = 0, H_1: \rho > 0$. Test statistic $r = \sqrt{0.9412} = 0.970$. Critical value for $n=11$ at $0.5\%$ is $0.7348$. Since $0.970 > 0.7348$, we reject $H_0$. There is sufficient evidence to suggest a positive correlation.
+(c)(i) Her sample size ($n=507$) is not listed in the statistical tables.
+(ii) She should use a statistical software package to carry out the test or find the p-value/critical value.
+
+### Question 4
+**Question:**
+Jake works for a parcel delivery company. The masses, in kilograms, of parcels he delivers are normally distributed with mean 2.2 and standard deviation 0.3.
+(a) Calculate the probability that a randomly selected parcel will have a mass less than 1.8 kg. [2]
+Jake delivers the lightest 80% of parcels on his bike. The rest he puts in his car and delivers by car.
+(b) Find the mass of the heaviest parcel he would deliver by bike. [2]
+(c) He randomly selects a parcel from his car. Find the probability that it has a mass less than 3 kg. [4]
+(d) In the run-up to Christmas, Jake believes that the parcels he has to deliver are, on average, heavier. He assumes that the standard deviation is unchanged. He randomly selects 20 parcels and finds that their total mass is 46 kg. Test Jake’s belief at the 5% level of significance. [7]
+(e) Jake delivers each parcel to one of three areas, A, B or C. The probabilities that a parcel has destination area A, B and C are 1/2, 1/3 and 1/6 respectively. All parcels are considered to be independent. On a particular day, Jake has three parcels to deliver. Find the probability that he will have to deliver to all three areas. [2]
+(f) On a different day, Jake has two parcels to deliver. Find the probability that he will have to deliver to more than one area. [4]
+
+**Answer:**
+(a) $P(X < 1.8) = P(Z < -1.33) \approx 0.0912$.
+(b) $P(X < m) = 0.8 \implies m \approx 2.452$ kg.
+(c) $P(X < 3 \mid X > 2.452) = \frac{P(2.452 < X < 3)}{P(X > 2.452)} = \frac{0.196}{0.2} = 0.981$.
+(d) $H_0: \mu = 2.2, H_1: \mu > 2.2$. Sample mean $\bar{X} = 46/20 = 2.3$. Test statistic $Z = \frac{2.3 - 2.2}{0.3/\sqrt{20}} = 1.49$. The p-value is $0.068$. Since $0.068 > 0.05$, there is insufficient evidence to reject $H_0$. The parcels are not significantly heavier.
+(e) $P(\text{A, B, C in any order}) = 6 \times (\frac{1}{2} \times \frac{1}{3} \times \frac{1}{6}) = \frac{1}{6}$.
+(f) $P(\text{Both same area}) = P(\text{AA}) + P(\text{BB}) + P(\text{CC}) = (\frac{1}{2})^2 + (\frac{1}{3})^2 + (\frac{1}{6})^2 = \frac{1}{4} + \frac{1}{9} + \frac{1}{36} = \frac{14}{36} = \frac{7}{18}$. $P(\text{more than one area}) = 1 - \frac{7}{18} = \frac{11}{18}$.
+
+### Question 5
+**Question:**
+Four coplanar horizontal forces of magnitude $F$ N, 12 N, 16 N and 20 N act at a point P. The 12 N force acts in the positive x direction. The 16 N force acts in the negative y direction. The $F$ N force acts at an angle $\alpha$ to the positive x direction. The 20 N force acts at an angle of 100° to the 16 N force. Given that the forces are in equilibrium, calculate the value of $F$ and the size of the angle $\alpha$. [7]
+
+**Answer:**
+The 20 N force makes an angle of $100^\circ$ from the negative y-axis, meaning it is $10^\circ$ above the positive x-axis.
+Resolving horizontally: $F\cos\alpha + 12 = 20\cos 10^\circ \implies F\cos\alpha = 20\cos 10^\circ - 12 \approx 7.696$.
+Resolving vertically: $F\sin\alpha + 20\sin 10^\circ = 16 \implies F\sin\alpha = 16 - 20\sin 10^\circ \approx 12.527$.
+$\tan\alpha = \frac{12.527}{7.696} \implies \alpha = 58.4^\circ$.
+$F = \sqrt{7.696^2 + 12.527^2} = 14.7$ N.
+
+### Question 6
+**Question:**
+A ball is projected with velocity $(4w\mathbf{i} + 7w\mathbf{j}) \text{ ms}^{-1}$ from the top of a vertical tower. After 5 seconds, the ball hits the ground at a point that is 60 m horizontally from the foot of the tower. The unit vectors $\mathbf{i}$ and $\mathbf{j}$ are horizontal and vertical respectively.
+(a) Find the value of $w$ and hence determine the height of the tower. [5]
+(b) Determine the proportion of the 5 seconds for which the ball is on its way down. [3]
+
+**Answer:**
+(a) Horizontally: $4w \times 5 = 60 \implies w = 3$. The velocity is $12\mathbf{i} + 21\mathbf{j}$.
+Vertically: $s = ut + \frac{1}{2}at^2 \implies s = 21(5) - 4.9(5^2) = 105 - 122.5 = -17.5$ m. The height of the tower is 17.5 m.
+(b) Time to reach max height: $v = u + at \implies 0 = 21 - 9.8t \implies t = \frac{15}{7}$ s.
+Time on way down: $5 - \frac{15}{7} = \frac{20}{7}$ s.
+Proportion: $\frac{20/7}{5} = \frac{4}{7} \approx 0.571$.
+
+### Question 7
+**Question:**
+As part of a design for a new building, an architect wants to support a wooden beam in a horizontal position. The beam is suspended using a vertical steel cable and a smooth fixed support on its underside. The steel cable is at 0.7 m from the left end. The support is at 3.5 m from the cable. The right end is 0.2 m from the support.
+You may use the following modelling assumptions:
+- The wooden beam is a rigid uniform rod of mass 100 kg.
+- The force exerted on the beam by the support is vertical.
+- The steel cable is inextensible.
+SAFETY REQUIREMENT: Both the steel cable and the support must be capable of withstanding forces of at least four times those present.
+(a) (i) Given that the support is capable of withstanding loads of up to 2000 N, show that the force exerted on the beam by the support satisfies the safety requirement. [3]
+(ii) The categories of steel cable available are A (up to 3000 N), B (up to 2500 N), and C (up to 2000 N). Determine which categories of steel cable could meet the safety requirements. [3]
+(b) State how you have used the modelling assumption that the beam is a uniform rod. [1]
+
+**Answer:**
+(a)(i) Total length = $0.7 + 3.5 + 0.2 = 4.4$ m. Centre of mass is $2.2$ m from the left, which is $1.5$ m from the cable.
+Taking moments about the cable: $100g \times 1.5 = R \times 3.5 \implies R = \frac{150g}{3.5} = \frac{300g}{7} = 420$ N.
+Safety requirement: $420 \times 4 = 1680$ N. Since $1680 < 2000$, the support satisfies the requirement.
+(a)(ii) Resolving vertically: $T + R = 100g \implies T = 980 - 420 = 560$ N.
+Safety requirement: $560 \times 4 = 2240$ N. Thus, cables A (3000 N) and B (2500 N) meet the requirements.
+(b) The weight of the beam acts exactly at its geometric centre.
+
+### Question 8
+**Question:**
+Three forces $\mathbf{F}_1, \mathbf{F}_2$ and $\mathbf{F}_3$ act on an object of mass 3 kg. The sum of the forces is given by $\sum \mathbf{F} = (15c - 12)\mathbf{i} + 9c\mathbf{j} + (6c - 12)\mathbf{k}$ N, where $c$ is a constant. The acceleration of the object is parallel to the vector $\mathbf{i} + \mathbf{j}$.
+(a) Find the value of the constant $c$ and hence show that the acceleration of the object is $6\mathbf{i} + 6\mathbf{j} \text{ ms}^{-2}$. [4]
+(b) When $t = 0$ seconds, the object has position vector $\mathbf{r}_0$ m and is moving with velocity $-17\mathbf{i} + 8\mathbf{j} \text{ ms}^{-1}$. When $t = 4$ seconds, the object has position vector $-13\mathbf{i} + 84\mathbf{j}$ m. Find the vector $\mathbf{r}_0$. [3]
+
+**Answer:**
+(a) $\mathbf{a} = \frac{\sum \mathbf{F}}{m} = \frac{15c - 12}{3}\mathbf{i} + \frac{9c}{3}\mathbf{j} + \frac{6c - 12}{3}\mathbf{k} = (5c - 4)\mathbf{i} + 3c\mathbf{j} + (2c - 4)\mathbf{k}$.
+Since $\mathbf{a}$ is parallel to $\mathbf{i} + \mathbf{j}$, the k-component is zero: $2c - 4 = 0 \implies c = 2$.
+Also, $5(2) - 4 = 6$ and $3(2) = 6$, confirming $\mathbf{a} = 6\mathbf{i} + 6\mathbf{j}$.
+(b) Using $\mathbf{r} = \mathbf{r}_0 + \mathbf{u}t + \frac{1}{2}\mathbf{a}t^2$:
+$-13\mathbf{i} + 84\mathbf{j} = \mathbf{r}_0 + 4(-17\mathbf{i} + 8\mathbf{j}) + \frac{1}{2}(6\mathbf{i} + 6\mathbf{j})(4^2)$
+$-13\mathbf{i} + 84\mathbf{j} = \mathbf{r}_0 - 68\mathbf{i} + 32\mathbf{j} + 48\mathbf{i} + 48\mathbf{j} = \mathbf{r}_0 - 20\mathbf{i} + 80\mathbf{j}$.
+$\mathbf{r}_0 = 7\mathbf{i} + 4\mathbf{j}$ m.
+
+### Question 9
+**Question:**
+A parcel, of mass $m$ kg, slides down a rough slope inclined at an angle $\alpha$ to the horizontal, where $\sin\alpha = 7/25$.
+The coefficient of friction between the parcel and the slope is $1/12$. In addition to friction, the parcel experiences a variable resistive force of $mv$ N, where $v \text{ ms}^{-1}$ is the velocity of the parcel at time $t$ seconds.
+(a) Show that the motion of the parcel satisfies the differential equation $\frac{dv}{dt} = \frac{g - 5v}{5}$. [5]
+(b) Given that the parcel is initially at rest on the slope, find an expression for $v$ in terms of $t$ and $g$. [5]
+(c) To avoid damage, the speed of the parcel must be restricted to a maximum of $2 \text{ ms}^{-1}$ down the slope. Determine whether or not the speed of the parcel exceeds $2 \text{ ms}^{-1}$. [1]
+
+**Answer:**
+(a) $\cos\alpha = 24/25$. Normal reaction $R = mg\cos\alpha = \frac{24mg}{25}$. Friction $F = \mu R = \frac{1}{12} \times \frac{24mg}{25} = \frac{2mg}{25}$.
+Equation of motion: $mg\sin\alpha - F - mv = m\frac{dv}{dt}$.
+$mg\left(\frac{7}{25}\right) - \frac{2mg}{25} - mv = m\frac{dv}{dt} \implies \frac{5mg}{25} - mv = m\frac{dv}{dt} \implies \frac{dv}{dt} = \frac{g}{5} - v = \frac{g - 5v}{5}$.
+(b) Separating variables: $\int \frac{5}{g - 5v} \, dv = \int 1 \, dt \implies -\ln|g - 5v| = t + C$.
+At $t = 0, v = 0 \implies C = -\ln g$.
+$-\ln\left(\frac{g - 5v}{g}\right) = t \implies 1 - \frac{5v}{g} = e^{-t} \implies v = \frac{g}{5}(1 - e^{-t})$.
+(c) As $t \to \infty$, the maximum speed is $\frac{g}{5} = \frac{9.8}{5} = 1.96 \text{ ms}^{-1}$. Since $1.96 < 2$, the speed does not exceed $2 \text{ ms}^{-1}$.
